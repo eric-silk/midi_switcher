@@ -55,4 +55,12 @@ F 3 "" H 5600 2150 50  0001 C CNN
 	1    5600 2150
 	1    0    0    -1  
 $EndComp
+Text HLabel 4350 2700 0    50   Input ~ 0
+UART_RX
+Text HLabel 4350 2800 0    50   Input ~ 0
+UART_TX
+Wire Wire Line
+	4350 2700 4900 2700
+Wire Wire Line
+	4900 2800 4350 2800
 $EndSCHEMATC
