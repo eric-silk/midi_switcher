@@ -25,37 +25,9 @@ F 3 "~" H 1750 1600 50  0001 C CNN
 	1    1750 1600
 	1    0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x05_Male J?
-U 1 1 5D75C545
-P 1750 2300
-F 0 "J?" H 1858 2681 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 1858 2590 50  0000 C CNN
-F 2 "" H 1750 2300 50  0001 C CNN
-F 3 "~" H 1750 2300 50  0001 C CNN
-	1    1750 2300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x05_Male J?
-U 1 1 5D75D52C
-P 5650 1700
-F 0 "J?" H 5622 1632 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 5622 1723 50  0000 R CNN
-F 2 "" H 5650 1700 50  0001 C CNN
-F 3 "~" H 5650 1700 50  0001 C CNN
-	1    5650 1700
-	-1   0    0    1   
-$EndComp
 NoConn ~ 1950 1800
 NoConn ~ 1950 1700
 NoConn ~ 1950 1600
-NoConn ~ 1950 2500
-NoConn ~ 1950 2400
-NoConn ~ 1950 2300
-NoConn ~ 5450 1900
-NoConn ~ 5450 1800
-NoConn ~ 5450 1700
 $Comp
 L Device:D D?
 U 1 1 5DBF71C3
@@ -165,4 +137,18 @@ Wire Wire Line
 	3700 1650 3850 1650
 Text HLabel 3850 1650 2    50   Output ~ 0
 MIDI_IN
+NoConn ~ 5900 1550
+NoConn ~ 5900 1650
+NoConn ~ 5900 1750
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5D75D52C
+P 6100 1550
+F 0 "J?" H 6072 1482 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 6072 1573 50  0000 R CNN
+F 2 "" H 6100 1550 50  0001 C CNN
+F 3 "~" H 6100 1550 50  0001 C CNN
+	1    6100 1550
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
