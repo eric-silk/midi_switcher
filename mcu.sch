@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:midi_switcher-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A?
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5D74B459
 P 5400 3300
-F 0 "A?" H 5400 2211 50  0000 C CNN
+F 0 "A1" H 5400 2211 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 5400 2120 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 5550 2350 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5400 2300 50  0001 C CNN
@@ -28,10 +28,10 @@ $EndComp
 Wire Wire Line
 	5400 4300 5500 4300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5D74C7F9
 P 5850 4350
-F 0 "#PWR?" H 5850 4100 50  0001 C CNN
+F 0 "#PWR0107" H 5850 4100 50  0001 C CNN
 F 1 "GND" H 5855 4177 50  0000 C CNN
 F 2 "" H 5850 4350 50  0001 C CNN
 F 3 "" H 5850 4350 50  0001 C CNN
@@ -46,10 +46,10 @@ Connection ~ 5500 4300
 Wire Wire Line
 	5600 2300 5600 2150
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0108
 U 1 1 5D74DD5E
 P 5600 2150
-F 0 "#PWR?" H 5600 2000 50  0001 C CNN
+F 0 "#PWR0108" H 5600 2000 50  0001 C CNN
 F 1 "+5V" H 5615 2323 50  0000 C CNN
 F 2 "" H 5600 2150 50  0001 C CNN
 F 3 "" H 5600 2150 50  0001 C CNN
@@ -80,4 +80,37 @@ Wire Wire Line
 	4900 3100 4350 3100
 Wire Wire Line
 	4900 3200 4350 3200
+$Comp
+L power:+9V #PWR0109
+U 1 1 5DC8F515
+P 5300 2150
+F 0 "#PWR0109" H 5300 2000 50  0001 C CNN
+F 1 "+9V" H 5315 2323 50  0000 C CNN
+F 2 "" H 5300 2150 50  0001 C CNN
+F 3 "" H 5300 2150 50  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2150 5300 2300
+NoConn ~ 4900 3300
+NoConn ~ 4900 3400
+NoConn ~ 4900 3500
+NoConn ~ 4900 3600
+NoConn ~ 4900 3700
+NoConn ~ 4900 3800
+NoConn ~ 4900 3900
+NoConn ~ 4900 4000
+NoConn ~ 5900 2700
+NoConn ~ 5900 2800
+NoConn ~ 5900 3100
+NoConn ~ 5900 3300
+NoConn ~ 5900 3400
+NoConn ~ 5900 3500
+NoConn ~ 5900 3600
+NoConn ~ 5900 3700
+NoConn ~ 5900 3800
+NoConn ~ 5900 3900
+NoConn ~ 5900 4000
+NoConn ~ 5500 2300
 $EndSCHEMATC

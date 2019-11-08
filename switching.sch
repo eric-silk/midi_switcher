@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:midi_switcher-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:RM50-xx21 K?
+L Relay:RM50-xx21 K1
 U 1 1 5DC03F87
 P 3650 3000
-F 0 "K?" H 3220 2954 50  0000 R CNN
+F 0 "K1" H 3220 2954 50  0000 R CNN
 F 1 "RM50-xx21" H 3900 3300 50  0001 R CNN
 F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 4920 2970 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 3650 3000 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 36
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D2
 U 1 1 5DC05805
 P 2900 3000
-F 0 "D?" V 2854 3079 50  0000 L CNN
+F 0 "D2" V 2854 3079 50  0000 L CNN
 F 1 "1N914" V 2945 3079 50  0000 L CNN
 F 2 "" H 2900 3000 50  0001 C CNN
 F 3 "~" H 2900 3000 50  0001 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 	3450 2600 3450 2450
 Connection ~ 3450 2600
 $Comp
-L Relay:RM50-xx21 K?
+L Relay:RM50-xx21 K2
 U 1 1 5DC08AA8
 P 5100 3050
-F 0 "K?" H 4670 3004 50  0000 R CNN
+F 0 "K2" H 4670 3004 50  0000 R CNN
 F 1 "RM50-xx21" H 5350 3350 50  0001 R CNN
 F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 6370 3020 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 5100 3050 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 51
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D3
 U 1 1 5DC08ABC
 P 4350 3050
-F 0 "D?" V 4304 3129 50  0000 L CNN
+F 0 "D3" V 4304 3129 50  0000 L CNN
 F 1 "1N914" V 4395 3129 50  0000 L CNN
 F 2 "" H 4350 3050 50  0001 C CNN
 F 3 "~" H 4350 3050 50  0001 C CNN
@@ -103,10 +103,10 @@ Wire Wire Line
 	4900 2650 4900 2500
 Connection ~ 4900 2650
 $Comp
-L Relay:RM50-xx21 K?
+L Relay:RM50-xx21 K3
 U 1 1 5DC0D594
 P 6550 3050
-F 0 "K?" H 6120 3004 50  0000 R CNN
+F 0 "K3" H 6120 3004 50  0000 R CNN
 F 1 "RM50-xx21" H 6800 3350 50  0001 R CNN
 F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 7820 3020 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 6550 3050 50  0001 C CNN
@@ -114,10 +114,10 @@ F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 65
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D4
 U 1 1 5DC0D5A0
 P 5800 3050
-F 0 "D?" V 5754 3129 50  0000 L CNN
+F 0 "D4" V 5754 3129 50  0000 L CNN
 F 1 "1N914" V 5845 3129 50  0000 L CNN
 F 2 "" H 5800 3050 50  0001 C CNN
 F 3 "~" H 5800 3050 50  0001 C CNN
@@ -147,10 +147,10 @@ Wire Wire Line
 	6350 2650 6350 2500
 Connection ~ 6350 2650
 $Comp
-L Relay:RM50-xx21 K?
+L Relay:RM50-xx21 K4
 U 1 1 5DC0EA27
 P 8000 3050
-F 0 "K?" H 7570 3004 50  0000 R CNN
+F 0 "K4" H 7570 3004 50  0000 R CNN
 F 1 "RM50-xx21" H 8250 3350 50  0001 R CNN
 F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 9270 3020 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 8000 3050 50  0001 C CNN
@@ -158,10 +158,10 @@ F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 80
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D5
 U 1 1 5DC0EA33
 P 7250 3050
-F 0 "D?" V 7204 3129 50  0000 L CNN
+F 0 "D5" V 7204 3129 50  0000 L CNN
 F 1 "1N914" V 7295 3129 50  0000 L CNN
 F 2 "" H 7250 3050 50  0001 C CNN
 F 3 "~" H 7250 3050 50  0001 C CNN
@@ -205,10 +205,10 @@ Wire Wire Line
 	8300 3350 8300 3750
 Connection ~ 6850 3750
 $Comp
-L Connector:Screw_Terminal_01x05 J?
+L Connector:Screw_Terminal_01x05 J4
 U 1 1 5DC1162A
 P 8950 2600
-F 0 "J?" H 9030 2596 50  0000 L CNN
+F 0 "J4" H 9030 2596 50  0000 L CNN
 F 1 "Screw_Terminal_01x05" H 9030 2551 50  0001 L CNN
 F 2 "" H 8950 2600 50  0001 C CNN
 F 3 "~" H 8950 2600 50  0001 C CNN
@@ -249,10 +249,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 2050 4150 2650
 $Comp
-L power:+9V #PWR?
+L power:+9V #PWR0116
 U 1 1 5DC19F00
 P 3450 2450
-F 0 "#PWR?" H 3450 2300 50  0001 C CNN
+F 0 "#PWR0116" H 3450 2300 50  0001 C CNN
 F 1 "+9V" H 3465 2623 50  0000 C CNN
 F 2 "" H 3450 2450 50  0001 C CNN
 F 3 "" H 3450 2450 50  0001 C CNN
@@ -260,10 +260,10 @@ F 3 "" H 3450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
+L power:+9V #PWR0117
 U 1 1 5DC1A6B9
 P 4900 2500
-F 0 "#PWR?" H 4900 2350 50  0001 C CNN
+F 0 "#PWR0117" H 4900 2350 50  0001 C CNN
 F 1 "+9V" H 4915 2673 50  0000 C CNN
 F 2 "" H 4900 2500 50  0001 C CNN
 F 3 "" H 4900 2500 50  0001 C CNN
@@ -271,10 +271,10 @@ F 3 "" H 4900 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
+L power:+9V #PWR0118
 U 1 1 5DC1AC7E
 P 6350 2500
-F 0 "#PWR?" H 6350 2350 50  0001 C CNN
+F 0 "#PWR0118" H 6350 2350 50  0001 C CNN
 F 1 "+9V" H 6365 2673 50  0000 C CNN
 F 2 "" H 6350 2500 50  0001 C CNN
 F 3 "" H 6350 2500 50  0001 C CNN
@@ -282,10 +282,10 @@ F 3 "" H 6350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
+L power:+9V #PWR0119
 U 1 1 5DC1B0BC
 P 7800 2500
-F 0 "#PWR?" H 7800 2350 50  0001 C CNN
+F 0 "#PWR0119" H 7800 2350 50  0001 C CNN
 F 1 "+9V" H 7815 2673 50  0000 C CNN
 F 2 "" H 7800 2500 50  0001 C CNN
 F 3 "" H 7800 2500 50  0001 C CNN
@@ -293,10 +293,10 @@ F 3 "" H 7800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q1
 U 1 1 5DC1BD59
 P 3350 4000
-F 0 "Q?" H 3540 4046 50  0000 L CNN
+F 0 "Q1" H 3540 4046 50  0000 L CNN
 F 1 "2N3904" H 3540 3955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 3925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3350 4000 50  0001 L CNN
@@ -304,10 +304,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3350 4000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q2
 U 1 1 5DC1CB65
 P 4800 4000
-F 0 "Q?" H 4990 4046 50  0000 L CNN
+F 0 "Q2" H 4990 4046 50  0000 L CNN
 F 1 "2N3904" H 4990 3955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5000 3925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4800 4000 50  0001 L CNN
@@ -315,10 +315,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4800 4000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q3
 U 1 1 5DC1D7A9
 P 6250 4000
-F 0 "Q?" H 6440 4046 50  0000 L CNN
+F 0 "Q3" H 6440 4046 50  0000 L CNN
 F 1 "2N3904" H 6440 3955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6450 3925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6250 4000 50  0001 L CNN
@@ -326,10 +326,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6250 4000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q4
 U 1 1 5DC1E450
 P 7700 4000
-F 0 "Q?" H 7890 4046 50  0000 L CNN
+F 0 "Q4" H 7890 4046 50  0000 L CNN
 F 1 "2N3904" H 7890 3955 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 3925 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7700 4000 50  0001 L CNN
@@ -337,10 +337,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7700 4000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5DC24854
 P 2950 4000
-F 0 "R?" V 2743 4000 50  0000 C CNN
+F 0 "R5" V 2743 4000 50  0000 C CNN
 F 1 "1k" V 2834 4000 50  0000 C CNN
 F 2 "" V 2880 4000 50  0001 C CNN
 F 3 "~" H 2950 4000 50  0001 C CNN
@@ -348,10 +348,10 @@ F 3 "~" H 2950 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5DC25203
 P 4400 4000
-F 0 "R?" V 4193 4000 50  0000 C CNN
+F 0 "R6" V 4193 4000 50  0000 C CNN
 F 1 "1k" V 4284 4000 50  0000 C CNN
 F 2 "" V 4330 4000 50  0001 C CNN
 F 3 "~" H 4400 4000 50  0001 C CNN
@@ -359,10 +359,10 @@ F 3 "~" H 4400 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5DC25738
 P 5850 4000
-F 0 "R?" V 5643 4000 50  0000 C CNN
+F 0 "R7" V 5643 4000 50  0000 C CNN
 F 1 "1k" V 5734 4000 50  0000 C CNN
 F 2 "" V 5780 4000 50  0001 C CNN
 F 3 "~" H 5850 4000 50  0001 C CNN
@@ -370,10 +370,10 @@ F 3 "~" H 5850 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5DC25D8A
 P 7300 4000
-F 0 "R?" V 7093 4000 50  0000 C CNN
+F 0 "R8" V 7093 4000 50  0000 C CNN
 F 1 "1k" V 7184 4000 50  0000 C CNN
 F 2 "" V 7230 4000 50  0001 C CNN
 F 3 "~" H 7300 4000 50  0001 C CNN
@@ -405,10 +405,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 3350 3450 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 5DC34E53
 P 3450 4250
-F 0 "#PWR?" H 3450 4000 50  0001 C CNN
+F 0 "#PWR0120" H 3450 4000 50  0001 C CNN
 F 1 "GND" H 3455 4077 50  0000 C CNN
 F 2 "" H 3450 4250 50  0001 C CNN
 F 3 "" H 3450 4250 50  0001 C CNN
@@ -418,10 +418,10 @@ $EndComp
 Wire Wire Line
 	3450 4200 3450 4250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 5DC36B1E
 P 4900 4250
-F 0 "#PWR?" H 4900 4000 50  0001 C CNN
+F 0 "#PWR0121" H 4900 4000 50  0001 C CNN
 F 1 "GND" H 4905 4077 50  0000 C CNN
 F 2 "" H 4900 4250 50  0001 C CNN
 F 3 "" H 4900 4250 50  0001 C CNN
@@ -429,10 +429,10 @@ F 3 "" H 4900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 5DC370B8
 P 6350 4250
-F 0 "#PWR?" H 6350 4000 50  0001 C CNN
+F 0 "#PWR0122" H 6350 4000 50  0001 C CNN
 F 1 "GND" H 6355 4077 50  0000 C CNN
 F 2 "" H 6350 4250 50  0001 C CNN
 F 3 "" H 6350 4250 50  0001 C CNN
@@ -440,10 +440,10 @@ F 3 "" H 6350 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 5DC3769E
 P 7800 4250
-F 0 "#PWR?" H 7800 4000 50  0001 C CNN
+F 0 "#PWR0123" H 7800 4000 50  0001 C CNN
 F 1 "GND" H 7805 4077 50  0000 C CNN
 F 2 "" H 7800 4250 50  0001 C CNN
 F 3 "" H 7800 4250 50  0001 C CNN
