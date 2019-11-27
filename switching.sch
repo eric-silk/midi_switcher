@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:midi_switcher-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:RM50-xx21 K1
+L Relay:TE_PCH-1xxx2M K1
 U 1 1 5DC03F87
 P 3650 3000
 F 0 "K1" H 3220 2954 50  0000 R CNN
 F 1 "RM50-xx21" H 3900 3300 50  0001 R CNN
-F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 4920 2970 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 4920 2970 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 3650 3000 50  0001 C CNN
 	1    3650 3000
 	1    0    0    1   
@@ -31,7 +31,7 @@ U 1 1 5DC05805
 P 2900 3000
 F 0 "D2" V 2854 3079 50  0000 L CNN
 F 1 "1N914" V 2945 3079 50  0000 L CNN
-F 2 "" H 2900 3000 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2900 3000 50  0001 C CNN
 F 3 "~" H 2900 3000 50  0001 C CNN
 	1    2900 3000
 	0    1    1    0   
@@ -53,29 +53,18 @@ Wire Wire Line
 	4150 2650 3850 2650
 Wire Wire Line
 	3850 2650 3850 2700
-Text HLabel 2750 4000 0    50   Input ~ 0
+Text HLabel 7100 4000 0    50   Input ~ 0
 RLY0
 Wire Wire Line
 	3450 2600 3450 2450
 Connection ~ 3450 2600
-$Comp
-L Relay:RM50-xx21 K2
-U 1 1 5DC08AA8
-P 5100 3050
-F 0 "K2" H 4670 3004 50  0000 R CNN
-F 1 "RM50-xx21" H 5350 3350 50  0001 R CNN
-F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 6370 3020 50  0001 C CNN
-F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 5100 3050 50  0001 C CNN
-	1    5100 3050
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:D D3
 U 1 1 5DC08ABC
 P 4350 3050
 F 0 "D3" V 4304 3129 50  0000 L CNN
 F 1 "1N914" V 4395 3129 50  0000 L CNN
-F 2 "" H 4350 3050 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 4350 3050 50  0001 C CNN
 F 3 "~" H 4350 3050 50  0001 C CNN
 	1    4350 3050
 	0    1    1    0   
@@ -97,29 +86,18 @@ Wire Wire Line
 	5600 2700 5300 2700
 Wire Wire Line
 	5300 2700 5300 2750
-Text HLabel 4200 4000 0    50   Input ~ 0
+Text HLabel 5650 4000 0    50   Input ~ 0
 RLY1
 Wire Wire Line
 	4900 2650 4900 2500
 Connection ~ 4900 2650
-$Comp
-L Relay:RM50-xx21 K3
-U 1 1 5DC0D594
-P 6550 3050
-F 0 "K3" H 6120 3004 50  0000 R CNN
-F 1 "RM50-xx21" H 6800 3350 50  0001 R CNN
-F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 7820 3020 50  0001 C CNN
-F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 6550 3050 50  0001 C CNN
-	1    6550 3050
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:D D4
 U 1 1 5DC0D5A0
 P 5800 3050
 F 0 "D4" V 5754 3129 50  0000 L CNN
 F 1 "1N914" V 5845 3129 50  0000 L CNN
-F 2 "" H 5800 3050 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 5800 3050 50  0001 C CNN
 F 3 "~" H 5800 3050 50  0001 C CNN
 	1    5800 3050
 	0    1    1    0   
@@ -141,29 +119,18 @@ Wire Wire Line
 	7050 2700 6750 2700
 Wire Wire Line
 	6750 2700 6750 2750
-Text HLabel 5650 4000 0    50   Input ~ 0
+Text HLabel 4200 4000 0    50   Input ~ 0
 RLY2
 Wire Wire Line
 	6350 2650 6350 2500
 Connection ~ 6350 2650
-$Comp
-L Relay:RM50-xx21 K4
-U 1 1 5DC0EA27
-P 8000 3050
-F 0 "K4" H 7570 3004 50  0000 R CNN
-F 1 "RM50-xx21" H 8250 3350 50  0001 R CNN
-F 2 "Relay_THT:Relay_SPST_Finder_32.21-x300" H 9270 3020 50  0001 C CNN
-F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 8000 3050 50  0001 C CNN
-	1    8000 3050
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:D D5
 U 1 1 5DC0EA33
 P 7250 3050
 F 0 "D5" V 7204 3129 50  0000 L CNN
 F 1 "1N914" V 7295 3129 50  0000 L CNN
-F 2 "" H 7250 3050 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 7250 3050 50  0001 C CNN
 F 3 "~" H 7250 3050 50  0001 C CNN
 	1    7250 3050
 	0    1    1    0   
@@ -183,45 +150,28 @@ Wire Wire Line
 Connection ~ 7800 3400
 Wire Wire Line
 	8200 2700 8200 2750
-Text HLabel 7100 4000 0    50   Input ~ 0
+Text HLabel 2750 4000 0    50   Input ~ 0
 RLY3
 Wire Wire Line
 	7800 2650 7800 2500
 Connection ~ 7800 2650
 Wire Wire Line
-	3950 3750 5400 3750
-Wire Wire Line
-	3950 3300 3950 3750
-Wire Wire Line
-	5400 3350 5400 3750
-Wire Wire Line
-	5400 3750 6850 3750
-Wire Wire Line
-	6850 3350 6850 3750
-Connection ~ 5400 3750
-Wire Wire Line
-	6850 3750 8300 3750
-Wire Wire Line
-	8300 3350 8300 3750
-Connection ~ 6850 3750
+	3850 3300 3850 3750
 $Comp
 L Connector:Screw_Terminal_01x05 J4
 U 1 1 5DC1162A
 P 8950 2600
 F 0 "J4" H 9030 2596 50  0000 L CNN
 F 1 "Screw_Terminal_01x05" H 9030 2551 50  0001 L CNN
-F 2 "" H 8950 2600 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 8950 2600 50  0001 C CNN
 F 3 "~" H 8950 2600 50  0001 C CNN
 	1    8950 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3750 8650 3750
-Wire Wire Line
 	8650 3750 8650 2800
 Wire Wire Line
 	8650 2800 8750 2800
-Connection ~ 8300 3750
 Wire Wire Line
 	8200 2700 8750 2700
 Wire Wire Line
@@ -293,56 +243,12 @@ F 3 "" H 7800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q1
-U 1 1 5DC1BD59
-P 3350 4000
-F 0 "Q1" H 3540 4046 50  0000 L CNN
-F 1 "2N3904" H 3540 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 3925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3350 4000 50  0001 L CNN
-	1    3350 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q2
-U 1 1 5DC1CB65
-P 4800 4000
-F 0 "Q2" H 4990 4046 50  0000 L CNN
-F 1 "2N3904" H 4990 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5000 3925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4800 4000 50  0001 L CNN
-	1    4800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q3
-U 1 1 5DC1D7A9
-P 6250 4000
-F 0 "Q3" H 6440 4046 50  0000 L CNN
-F 1 "2N3904" H 6440 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6450 3925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6250 4000 50  0001 L CNN
-	1    6250 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q4
-U 1 1 5DC1E450
-P 7700 4000
-F 0 "Q4" H 7890 4046 50  0000 L CNN
-F 1 "2N3904" H 7890 3955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 3925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7700 4000 50  0001 L CNN
-	1    7700 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5DC24854
 P 2950 4000
 F 0 "R5" V 2743 4000 50  0000 C CNN
 F 1 "1k" V 2834 4000 50  0000 C CNN
-F 2 "" V 2880 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 4000 50  0001 C CNN
 F 3 "~" H 2950 4000 50  0001 C CNN
 	1    2950 4000
 	0    1    1    0   
@@ -353,7 +259,7 @@ U 1 1 5DC25203
 P 4400 4000
 F 0 "R6" V 4193 4000 50  0000 C CNN
 F 1 "1k" V 4284 4000 50  0000 C CNN
-F 2 "" V 4330 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4330 4000 50  0001 C CNN
 F 3 "~" H 4400 4000 50  0001 C CNN
 	1    4400 4000
 	0    1    1    0   
@@ -364,7 +270,7 @@ U 1 1 5DC25738
 P 5850 4000
 F 0 "R7" V 5643 4000 50  0000 C CNN
 F 1 "1k" V 5734 4000 50  0000 C CNN
-F 2 "" V 5780 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 4000 50  0001 C CNN
 F 3 "~" H 5850 4000 50  0001 C CNN
 	1    5850 4000
 	0    1    1    0   
@@ -375,7 +281,7 @@ U 1 1 5DC25D8A
 P 7300 4000
 F 0 "R8" V 7093 4000 50  0000 C CNN
 F 1 "1k" V 7184 4000 50  0000 C CNN
-F 2 "" V 7230 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 4000 50  0001 C CNN
 F 3 "~" H 7300 4000 50  0001 C CNN
 	1    7300 4000
 	0    1    1    0   
@@ -456,4 +362,98 @@ Wire Wire Line
 	6350 4250 6350 4200
 Wire Wire Line
 	4900 4250 4900 4200
+$Comp
+L Transistor_BJT:BC337 Q1
+U 1 1 5DCB61AF
+P 3350 4000
+F 0 "Q1" H 3541 4046 50  0000 L CNN
+F 1 "BC337" H 3541 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 3925 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 3350 4000 50  0001 L CNN
+	1    3350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q2
+U 1 1 5DCB891E
+P 4800 4000
+F 0 "Q2" H 4991 4046 50  0000 L CNN
+F 1 "BC337" H 4991 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5000 3925 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 4800 4000 50  0001 L CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q3
+U 1 1 5DCB96F8
+P 6250 4000
+F 0 "Q3" H 6441 4046 50  0000 L CNN
+F 1 "BC337" H 6441 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6450 3925 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6250 4000 50  0001 L CNN
+	1    6250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q4
+U 1 1 5DCBA831
+P 7700 4000
+F 0 "Q4" H 7891 4046 50  0000 L CNN
+F 1 "BC337" H 7891 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 3925 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 7700 4000 50  0001 L CNN
+	1    7700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:TE_PCH-1xxx2M K2
+U 1 1 5DCCE202
+P 5100 3050
+F 0 "K2" H 4670 3004 50  0000 R CNN
+F 1 "RM50-xx21" H 5350 3350 50  0001 R CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 6370 3020 50  0001 C CNN
+F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 5100 3050 50  0001 C CNN
+	1    5100 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Relay:TE_PCH-1xxx2M K3
+U 1 1 5DCCF58D
+P 6550 3050
+F 0 "K3" H 6120 3004 50  0000 R CNN
+F 1 "RM50-xx21" H 6800 3350 50  0001 R CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 7820 3020 50  0001 C CNN
+F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 6550 3050 50  0001 C CNN
+	1    6550 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Relay:TE_PCH-1xxx2M K4
+U 1 1 5DCD07E7
+P 8000 3050
+F 0 "K4" H 7570 3004 50  0000 R CNN
+F 1 "RM50-xx21" H 8250 3350 50  0001 R CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 9270 3020 50  0001 C CNN
+F 3 "http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf" H 8000 3050 50  0001 C CNN
+	1    8000 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3850 3750 5300 3750
+Wire Wire Line
+	5300 3350 5300 3750
+Connection ~ 5300 3750
+Wire Wire Line
+	5300 3750 6750 3750
+Wire Wire Line
+	6750 3350 6750 3750
+Connection ~ 6750 3750
+Wire Wire Line
+	6750 3750 8200 3750
+Wire Wire Line
+	8200 3350 8200 3750
+Connection ~ 8200 3750
+Wire Wire Line
+	8200 3750 8650 3750
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:midi_switcher-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5D744931
 P 1550 1950
 F 0 "J1" H 1320 1900 50  0000 R CNN
 F 1 "Barrel_Jack_Switch" H 1320 1991 50  0000 R CNN
-F 2 "" H 1600 1910 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1600 1910 50  0001 C CNN
 F 3 "~" H 1600 1910 50  0001 C CNN
 	1    1550 1950
 	1    0    0    1   
@@ -70,7 +70,7 @@ U 1 1 5D746EA6
 P 3650 1850
 F 0 "U1" H 3650 2092 50  0000 C CNN
 F 1 "L7805" H 3650 2001 50  0000 C CNN
-F 2 "" H 3675 1700 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3675 1700 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3650 1800 50  0001 C CNN
 	1    3650 1850
 	1    0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 5D748082
 P 3150 2100
 F 0 "C1" H 3268 2146 50  0000 L CNN
 F 1 "0.33uF" H 3268 2055 50  0000 L CNN
-F 2 "" H 3188 1950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3188 1950 50  0001 C CNN
 F 3 "~" H 3150 2100 50  0001 C CNN
 	1    3150 2100
 	1    0    0    -1  
@@ -104,8 +104,8 @@ L Device:CP C2
 U 1 1 5D7482D3
 P 4100 2100
 F 0 "C2" H 4218 2146 50  0000 L CNN
-F 1 "0.1uF" H 4218 2055 50  0000 L CNN
-F 2 "" H 4138 1950 50  0001 C CNN
+F 1 "0.33uF" H 4218 2055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4138 1950 50  0001 C CNN
 F 3 "~" H 4100 2100 50  0001 C CNN
 	1    4100 2100
 	1    0    0    -1  
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1850 4100 1950
 Wire Wire Line
-	3150 1850 2200 1850
+	3150 1850 2600 1850
 Connection ~ 3150 1850
 Connection ~ 2200 1850
 Wire Wire Line
@@ -164,4 +164,44 @@ F 3 "" H 4500 1800 50  0001 C CNN
 	1    4500 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED D6
+U 1 1 5DC759EC
+P 2600 2000
+F 0 "D6" V 2639 1883 50  0000 R CNN
+F 1 "3MM Red LED" V 2548 1883 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2600 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 1850
+Wire Wire Line
+	2600 1850 2200 1850
+$Comp
+L Device:R R9
+U 1 1 5DC76866
+P 2600 2350
+F 0 "R9" H 2670 2396 50  0000 L CNN
+F 1 "400" H 2670 2305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2530 2350 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5DC76C7C
+P 2600 2550
+F 0 "#PWR0124" H 2600 2300 50  0001 C CNN
+F 1 "GND" H 2605 2377 50  0000 C CNN
+F 2 "" H 2600 2550 50  0001 C CNN
+F 3 "" H 2600 2550 50  0001 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2550 2600 2500
+Wire Wire Line
+	2600 2200 2600 2150
 $EndSCHEMATC
